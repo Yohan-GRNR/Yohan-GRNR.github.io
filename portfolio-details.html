@@ -158,6 +158,20 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <script src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var portfolioDetailsSlider = new Swiper('.portfolio-details-slider', {
+        autoplay: {
+          delay: 5000, // Délai entre les slides
+          disableOnInteraction: false, // Désactiver l'autoplay lors de l'interaction de l'utilisateur
+        },
+        // Autres options du carrousel...
+      });
+  
+      // Désactiver l'autoplay après l'initialisation
+      portfolioDetailsSlider.autoplay.stop();
+    });
+  </script>
 
 </body>
 
