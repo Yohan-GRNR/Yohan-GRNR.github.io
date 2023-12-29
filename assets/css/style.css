@@ -458,6 +458,12 @@ section {
   background-color: #149ddd;
 }
 
+.skills .progress-bar-pref {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #122f57;
+}
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
