@@ -651,6 +651,7 @@ section {
 }
 /*fin */
 
+/*--------
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
@@ -662,7 +663,7 @@ section {
 .portfolio-details .portfolio-details-slider .iframe-container {
   position: relative;
   overflow: hidden;
-  padding-top: 56.25%; /* Ratio 16:9 */
+  padding-top: 56.25%; 
 }
 
 .portfolio-details .portfolio-details-slider .iframe-container iframe {
@@ -689,6 +690,7 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #149ddd;
 }
+*/
 
 .portfolio-details .portfolio-info {
   padding: 30px;
