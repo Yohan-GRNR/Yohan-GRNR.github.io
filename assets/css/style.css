@@ -627,6 +627,30 @@ section {
   padding-top: 40px;
 }
 
+/*ajout accordeon*/
+.portfolio-details .accordion-flush img {
+  width: 100%;
+}
+
+.portfolio-details .accordion-flush video {
+  width: 100%;
+}
+
+.portfolio-details .accordion-flush .iframe-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* Ratio 16:9 */
+}
+
+.portfolio-details .accordion-flush .iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/*fin */
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
