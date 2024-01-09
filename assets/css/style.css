@@ -248,7 +248,7 @@ h6 {
   cursor: pointer;
 }
 
-.lang-en :active {
+.lang-active .lang-en {
   position: fixed;
   right: 80px;
   top: 15px;
@@ -288,7 +288,7 @@ h6 {
   cursor: pointer;
 }
 
-.lang-fr :active{
+.lang-active .lang-fr  {
   position: fixed;
   right: 140px;
   top: 15px;
