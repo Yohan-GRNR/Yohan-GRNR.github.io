@@ -236,7 +236,7 @@ h6 {
   border: 0;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #173b6c;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -248,24 +248,8 @@ h6 {
   cursor: pointer;
 }
 
-.lang-active .lang-en {
-  position: fixed;
-  right: 80px;
-  top: 15px;
-  z-index: 9998;
-  border: 0;
-  transition: all 0.4s;
-  outline: none !important;
-  background-color: #173b6c;
-  color: #fff;
-  width: 40px;
-  height: 40px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 0;
-  border-radius: 50px;
-  cursor: pointer;
+.lang-en.lang-active {
+  background-color: #149ddd;
 }
 
 .lang-fr {
@@ -276,7 +260,7 @@ h6 {
   border: 0;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #173b6c;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -288,24 +272,8 @@ h6 {
   cursor: pointer;
 }
 
-.lang-active .lang-fr  {
-  position: fixed;
-  right: 140px;
-  top: 15px;
-  z-index: 9998;
-  border: 0;
-  transition: all 0.4s;
-  outline: none !important;
-  background-color: #173b6c;
-  color: #fff;
-  width: 40px;
-  height: 40px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 0;
-  border-radius: 50px;
-  cursor: pointer;
+.lang-fr.lang-active {
+  background-color: #149ddd;
 }
 
 .lang-en a {
