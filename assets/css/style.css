@@ -248,6 +248,26 @@ h6 {
   cursor: pointer;
 }
 
+.lang-en :active {
+  position: fixed;
+  right: 80px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  transition: all 0.4s;
+  outline: none !important;
+  background-color: #173b6c;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
 .lang-fr {
   position: fixed;
   right: 140px;
@@ -257,6 +277,26 @@ h6 {
   transition: all 0.4s;
   outline: none !important;
   background-color: #149ddd;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.lang-fr :active{
+  position: fixed;
+  right: 140px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  transition: all 0.4s;
+  outline: none !important;
+  background-color: #173b6c;
   color: #fff;
   width: 40px;
   height: 40px;
